@@ -1,5 +1,4 @@
 vpc:
-    source:  "git::https://github.com/RanaSiddireddi/tf-module-vpc.git"
+    source:  "https://github.com/RanaSiddireddi/tf-module-vpc.git"
     version: "main"
 
-    
