@@ -20,7 +20,7 @@ pipeline {
         }
         stage('terraform Apply') {
             steps {
-                sh "terraform ${Action} -var-file=env-${ENV}/${ENV}.tfvars -auto-approve"
+                sh "terraform ${Action} -auto-approve -var-file=env-${ENV}/${ENV}.tfvars"
             }
         }
     }
