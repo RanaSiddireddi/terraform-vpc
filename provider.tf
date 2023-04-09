@@ -2,7 +2,7 @@ provider "aws" {
     region = "us-east-1"
 }
 
-#declaring he remote statefile
+#declaring the remote statefile
 terraform {
   backend "s3" {}
 }
